@@ -30,7 +30,7 @@
         <?php
             /* Set start and end dates here */
             $startDate  = strtotime("01 January 2013 12:00:00");
-            $endDate    = strtotime("24 August 2013 12:00:00");
+            $endDate    = strtotime("24 August 2013 16:00:00");
             /* /Set start and end dates here */
         ?>
         <script>
