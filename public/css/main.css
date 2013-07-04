@@ -1,0 +1,246 @@
+/* @override http://localhost:8888/kandj/public/css/main.css */
+
+/* @override 
+	http://localhost:8888/kandj/css/main.css
+	http://localhost:8888/kandj/public/css/main.css
+	http://kateandjimmy.com/css/main.css */
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@font-face {font-family: 'Carrosserie-Medium';src: url('webfonts/25C473_0_0.eot');src: url('webfonts/25C473_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25C473_0_0.woff') format('woff'),url('webfonts/25C473_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Carrosserie-Bold';src: url('webfonts/25C473_1_0.eot');src: url('webfonts/25C473_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25C473_1_0.woff') format('woff'),url('webfonts/25C473_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Carrosserie-ExtraLight';src: url('webfonts/25C473_2_0.eot');src: url('webfonts/25C473_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25C473_2_0.woff') format('woff'),url('webfonts/25C473_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Carrosserie-Fat';src: url('webfonts/25C473_3_0.eot');src: url('webfonts/25C473_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25C473_3_0.woff') format('woff'),url('webfonts/25C473_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Carrosserie-Light';src: url('webfonts/25C473_4_0.eot');src: url('webfonts/25C473_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25C473_4_0.woff') format('woff'),url('webfonts/25C473_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Carrosserie-Regular';src: url('webfonts/25C473_5_0.eot');src: url('webfonts/25C473_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25C473_5_0.woff') format('woff'),url('webfonts/25C473_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'Carrosserie-Thin';src: url('webfonts/25C473_6_0.eot');src: url('webfonts/25C473_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/25C473_6_0.woff') format('woff'),url('webfonts/25C473_6_0.ttf') format('truetype');}
+
+
+body
+{
+	font-family: Carrosserie-Regular;
+	color: #373634;
+	background: no-repeat fixed #958a99;
+	background-size:cover;
+}
+a{
+	color: #ffffff;
+}
+a:hover{
+	color: #373633!important;
+}
+
+img#our-logo {
+	width: 54px;
+	margin-right: 14px;
+	float: left;
+}
+
+div.container {
+
+}
+a.brand {
+	//padding: 0!important;
+	font-size: 18px!important;
+}
+
+.centered
+{
+	text-align: center;
+}
+
+.navbar-inner
+{
+	background-color: #FFFFFF !important;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#FFFFFF), to(#FFFFFF));
+    background-image: -moz-linear-gradient(#FFFFFF, #FFFFFF);
+    background-image: -o-linear-gradient(#FFFFFF, #FFFFFF);
+    background-image: linear-gradient(#FFFFFF, #FFFFFF)!important;
+	background-repeat: repeat-x!important;
+	border-color: #6b6767!important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0)!important;
+	  
+}
+.active
+{
+		//background-color: #6b6767 !important;
+}
+
+.navbar-inverse .nav .active > a, .navbar-inverse .nav .active > a:hover, .navbar-inverse .nav .active > a:focus {
+	background-color: #958a99 !important;
+	  background-image: -moz-linear-gradient(top, #958a99, #958a99)!important;
+	  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#958a99), to(#958a99))!important;
+	  background-image: -webkit-linear-gradient(top, #958a99, #958a99)!important;
+	  background-image: -o-linear-gradient(top, #958a99, #958a99)!important;
+	  background-image: linear-gradient(to bottom, #958a99, #958a99)!important;
+	  background-repeat: repeat-x!important;
+	  border-color: #958a99!important;
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0)!important;
+	
+}
+#animal-logos{
+	//opacity: 0.27;
+	
+	cursor:pointer;
+	position: relative;
+	top: -31px;
+	margin-bottom: 30px;
+}
+
+div#kate_name {
+	position: relative;
+	right: 169px;
+	top: 104px;
+	opacity:0;
+}
+div#jimmy_name {
+	position: relative;
+	
+	opacity:0;
+	left: 85px;
+	top: 12px;
+}
+.rsvp_text {
+	font-size: 20px;
+	padding-right: 14px;
+}
+
+button.btn.rsvp_submit {
+		font-family: Carrosserie-Regular;
+}
+
+form {
+	text-align: left;
+}
+input.rsvp_form{
+	//color: #ffffff;
+	opacity: 1;
+}
+.question_mark{
+	margin-left: 129px;
+	font-size: 66px;
+	margin-bottom: 28px;
+}
+
+footer {
+	margin-top: 30px;
+}
+
+a.btn.btn-large.disabled {
+	cursor: pointer;
+}
+.carousel-control{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#myCarousel{
+	width: 968px!important;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+#google-map{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+div#cool-clock.c-wrapper {
+	width:960px;
+	margin:0 auto;
+}
+
+.clock {
+    width:535px;
+    height:150px;
+    margin:0 auto;
+}
+
+.clock_days {
+    float:left;
+    width:122px;
+    margin-right: 15px;
+    position: relative;
+}
+.clock_hours {
+    float:left;
+    width:122px;
+    margin-right: 15px;
+    position: relative;
+}
+.clock_minutes {
+    float:left;
+    width:122px;
+    margin-right: 15px;
+    position: relative;
+}
+.clock_seconds {
+    float:left;
+    width:122px;
+    position: relative;
+}
+
+.c-bgLayer {
+    background-image:url("../img/clock_bg.png");
+    width:122px;
+    height:122px;
+    background-repeat: no-repeat;
+}
+
+.c-val {
+    margin:0;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    line-height: 122px;
+    font-size: 35px;
+    color:#373634;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #958a99;
+    text-align: center;
+}
+
+.type_days,
+.type_hours,
+.type_minutes,
+.type_seconds {
+    font-size: 14px;
+    font-weight: bold;
+    color:#373634;
+    background:#958a99;
+    padding:5px;
+    text-align: center;
+    margin:0 auto;
+    margin-top:10px;
+    display: table;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #958a99;
+}
+
+
+
+
+
+
+
+
+
+
